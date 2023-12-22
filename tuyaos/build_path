@@ -1,0 +1,12 @@
+#****************************************************************************************
+# 在下下方添加您的编译工具、编译的位置和前缀
+# 注意：
+#   TUYA_TOOLCHAIN_ZIP： 编译工具如果是压缩包，则需要填写压缩包的相对路径
+#	TUYA_TOOLCHAIN_PRE： 编译工具链前缀 
+#	TUYA_APPS_BUILD_PATH： 编译脚本的相对路径
+#   TUYA_APPS_BUILD_CMD： 编译脚本的名称
+#****************************************************************************************
+export TUYA_TOOLCHAIN_ZIP=../toolchain/gcc-arm-none-eabi-4_9-2015q1.tar
+export TUYA_TOOLCHAIN_PRE=../toolchain/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-
+export TUYA_APPS_BUILD_PATH=./
+export TUYA_APPS_BUILD_CMD=build.sh

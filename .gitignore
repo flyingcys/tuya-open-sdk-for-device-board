@@ -1,0 +1,16 @@
+*.o
+*.d
+*.map
+*.nmap
+beken_os/Debug
+beken_os/.ver
+beken_os/.config
+beken_os/tools/generate/config.json
+beken_os/tools/generate/*.cpr
+beken_os/tools/generate/*.out
+beken_os/tools/generate/*.bin
+!beken_os/tools/generate/t2_bootloader.bin
+!beken_os/tools/generate/t2_bootloader_enc.bin
+!beken_os/tools/generate/package.bin
+qt_proj/
+toolchain/gcc-arm-none-eabi-4_9-2015q1
