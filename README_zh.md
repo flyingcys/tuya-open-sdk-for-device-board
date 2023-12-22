@@ -1,6 +1,6 @@
 # T2
 
-[English](https://github.com/tuya/T2/blob/main/README.md) | 中文
+[English](https://github.com/tuya/T2/blob/master/README.md) | 中文
 
 **涂鸦 T2-U 开发板** 是一款专为开发者打造的智能硬件产品原型开发板。它可与其他功能电路模组或电路板配合使用，实现各种智能硬件产品的开发。涂鸦 T2-U 开发板非常易于使用，您可以利用此开发板快速实现各种智能硬件 Demo。
 
