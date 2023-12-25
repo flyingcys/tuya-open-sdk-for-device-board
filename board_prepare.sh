@@ -4,6 +4,14 @@
 
 TOOLCHAIN_NAME=gcc-arm-none-eabi-4_9-2015q1
 
+cd toolchain
+if [ -d "$TOOLCHAIN_NAME" ]; then
+    if [ -n "$(ls -A $TOOLCHAIN_NAME)" ]; then
+        echo "Toolchain $TOOLCHAIN_NAME check Successful"
+        exit 0
+    fi
+fi
+
 restult=$(curl -s http://www.ip-api.com/json)
 country=$(echo $restult | sed 's/.*"country":"\([^"]*\)".*/\1/')
 echo "country: $country"
@@ -35,20 +43,16 @@ fi
 
 FILE_EXTENSION=${TOOLCHAIN_FILE#*.}
 
-cd toolchain
-if [ -d "$TOOLCHAIN_NAME" ]; then
-    echo "Toolchain $TOOLCHAIN_NAME check Successful"
+
+wget $TOOLCHAIN_URL -O $TOOLCHAIN_FILE
+echo "start decompression"
+if [ $FILE_EXTENSION = "tar.bz2" ]; then
+    tar -xvf $TOOLCHAIN_FILE
+elif [ $FILE_EXTENSION = "zip" ]; then
+    mkdir -p $TOOLCHAIN_NAME
+    unzip $TOOLCHAIN_FILE -d $TOOLCHAIN_NAME
 else
-    wget $TOOLCHAIN_URL -O $TOOLCHAIN_FILE
-    echo "start decompression"
-    if [ $FILE_EXTENSION = "tar.bz2" ]; then
-        tar -xvf $TOOLCHAIN_FILE
-    elif [ $FILE_EXTENSION = "zip" ]; then
-        mkdir -p $TOOLCHAIN_NAME
-        unzip $TOOLCHAIN_FILE -d $TOOLCHAIN_NAME
-    else
-        echo "File not support"
-    fi
+    echo "File not support"
 fi
 
 rm -rf $TOOLCHAIN_FILE
