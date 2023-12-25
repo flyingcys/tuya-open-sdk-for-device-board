@@ -13,9 +13,9 @@ if [ "$os_type" = "Linux" ]; then
     echo "OS: Linux"
     
     if [ $country = "China" ]; then
-        TOOLCHAIN_URL=https://launchpadlibrarian.net/200701245/gcc-arm-none-eabi-4_9-2015q1-20150306-linux.tar.bz2
+        TOOLCHAIN_URL=https://images.tuyacn.com/rms-static/4720f5e0-a2ca-11ee-8cd8-b117287658f4-1703470015550.tar.bz2?tyName=gcc-arm-none-eabi-4_9-2015q1-20150306-linux.tar.bz2
     else
-        TOOLCHAIN_URL=https://launchpadlibrarian.net/200701245/gcc-arm-none-eabi-4_9-2015q1-20150306-linux.tar.bz2
+        TOOLCHAIN_URL=https://github.com/tuya/T2/releases/download/0.0.1/gcc-arm-none-eabi-4_9-2015q1-20150306-linux.tar.bz2
     fi
     TOOLCHAIN_FILE=gcc-arm-none-eabi-4_9-2015q1.tar.bz2
 
@@ -23,9 +23,9 @@ elif [ "${os_type:0:9}" = "CYGWIN_NT" ] || [ "${os_type:0:10}" = "MINGW64_NT" ];
     echo "OS: $os_type"
 
     if [ $country = "China" ]; then
-        TOOLCHAIN_URL=https://launchpadlibrarian.net/200701725/gcc-arm-none-eabi-4_9-2015q1-20150306-win32.zip
+        TOOLCHAIN_URL=https://images.tuyacn.com/rms-static/47233fd0-a2ca-11ee-af19-cfa45f6de59e-1703470015565.zip?tyName=gcc-arm-none-eabi-4_9-2015q1-20150306-win32.zip
     else
-        TOOLCHAIN_URL=https://launchpadlibrarian.net/200701725/gcc-arm-none-eabi-4_9-2015q1-20150306-win32.zip
+        TOOLCHAIN_URL=https://github.com/tuya/T2/releases/download/0.0.1/gcc-arm-none-eabi-4_9-2015q1-20150306-win32.zip
     fi
     TOOLCHAIN_FILE=gcc-arm-none-eabi-4_9-2015q1.zip
 else
