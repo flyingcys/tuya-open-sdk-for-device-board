@@ -34,6 +34,7 @@ STATIC OPERATE_RET __tkl_wired_get_status_by_name(CONST CHAR_T *if_name, TKL_WIR
         return OPRT_SOCK_ERR;
     }
 
+    memset(&ifr, 0, sizeof(struct ifreq));
     strncpy(ifr.ifr_name, if_name, strlen(if_name));
     if (ioctl(sockfd, SIOCGIFFLAGS, &ifr) < 0) {
         perror("ioctl");
