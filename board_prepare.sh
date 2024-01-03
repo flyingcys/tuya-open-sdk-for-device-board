@@ -12,34 +12,40 @@ if [ -d "$TOOLCHAIN_NAME" ]; then
     fi
 fi
 
-restult=$(curl -s http://www.ip-api.com/json)
+echo "Start download toolchain"
+restult=$(curl -m 15 -s http://www.ip-api.com/json)
 country=$(echo $restult | sed 's/.*"country":"\([^"]*\)".*/\1/')
 echo "country: $country"
 
-os_type="$(uname)"
-if [ "$os_type" = "Linux" ]; then
-    echo "OS: Linux"
-    
+case "$(uname -s)" in
+Linux*)
+	SYSTEM_NAME="Linux"
     if [ $country = "China" ]; then
         TOOLCHAIN_URL=https://images.tuyacn.com/rms-static/4720f5e0-a2ca-11ee-8cd8-b117287658f4-1703470015550.tar.bz2?tyName=gcc-arm-none-eabi-4_9-2015q1-20150306-linux.tar.bz2
     else
         TOOLCHAIN_URL=https://github.com/tuya/T2/releases/download/0.0.1/gcc-arm-none-eabi-4_9-2015q1-20150306-linux.tar.bz2
     fi
     TOOLCHAIN_FILE=gcc-arm-none-eabi-4_9-2015q1.tar.bz2
-
-elif [ "${os_type:0:9}" = "CYGWIN_NT" ] || [ "${os_type:0:10}" = "MINGW64_NT" ]; then
-    echo "OS: $os_type"
-
+	;;
+Darwin*)
+	SYSTEM_NAME="Apple"
+    exit 1
+	;;
+MINGW* | CYGWIN* | MSYS*)
+	SYSTEM_NAME="Windows"
     if [ $country = "China" ]; then
         TOOLCHAIN_URL=https://images.tuyacn.com/rms-static/47233fd0-a2ca-11ee-af19-cfa45f6de59e-1703470015565.zip?tyName=gcc-arm-none-eabi-4_9-2015q1-20150306-win32.zip
     else
         TOOLCHAIN_URL=https://github.com/tuya/T2/releases/download/0.0.1/gcc-arm-none-eabi-4_9-2015q1-20150306-win32.zip
     fi
     TOOLCHAIN_FILE=gcc-arm-none-eabi-4_9-2015q1.zip
-else
-    echo "OS: $os_type not support"
+	;;
+*)
+	SYSTEM_NAME="Unknown"
     exit 1
-fi
+	;;
+esac
+echo "Running on [$SYSTEM_NAME]"
 
 FILE_EXTENSION=${TOOLCHAIN_FILE#*.}
 
