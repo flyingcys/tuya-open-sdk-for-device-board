@@ -103,6 +103,7 @@ else
 	TY_PACKAGE=${TOOL_DIR}/package.exe
 fi
 
+TYUTOOL_DIR=$(pwd)/tools/tyutool
 
 cd beken_os
 
@@ -167,16 +168,24 @@ if [ -f combine.sh ]; then
 	rm QIO_no_ate
 fi
 
-echo "$(pwd)"
+# echo "$(pwd)"
 cp ${APP_BIN_NAME}_UG_${APP_VERSION}.bin  ${APP_BIN_DIR}/${APP_BIN_NAME}_UG_${APP_VERSION}.bin
 cp ${APP_BIN_NAME}_UA_${APP_VERSION}.bin  ${APP_BIN_DIR}/${APP_BIN_NAME}_UA_${APP_VERSION}.bin
 cp ${APP_BIN_NAME}_QIO_${APP_VERSION}.bin ${APP_BIN_DIR}/${APP_BIN_NAME}_QIO_${APP_VERSION}.bin
 
-echo "*************************************************************************"
-echo "*************************************************************************"
-echo "*************************************************************************"
-echo "*********************${APP_BIN_NAME}_$APP_VERSION.bin********************"
-echo "*************************************************************************"
-echo "**********************COMPILE SUCCESS************************************"
-echo "*************************************************************************"
-echo "APP_BIN_DIR = ${APP_BIN_DIR}/"
+echo ""
+
+echo "###################################################################################################################"
+echo "Project ${APP_BIN_NAME} build complete. To flash, run this command:"
+if [ $SYSTEM = "Linux" ]; then
+	echo "${TYUTOOL_DIR}/cli write -d T2 -p [Port] -b [Baudrate] -f ${APP_BIN_DIR}/${APP_BIN_NAME}_QIO_${APP_VERSION}.bin"
+	echo "Port: /dev/ttyACM0 or /dev/ttyUSB0 ..."
+else
+	echo "${TYUTOOL_DIR}/cli.exe write -d T2 -p [Port] -b [Baudrate] -f ${APP_BIN_DIR}/${APP_BIN_NAME}_QIO_${APP_VERSION}.bin"
+	echo "Port: COM3 or COM4 ..."
+fi
+echo "Baudrate: 921600 or 1500000 or 2000000 ..."
+echo ""
+echo "Flash tool user manual at ${TYUTOOL_DIR}/README.md"
+echo "###################################################################################################################"
+echo ""
