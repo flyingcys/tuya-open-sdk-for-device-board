@@ -1,5 +1,5 @@
 # TuyaOS Flash下载工具
-[English](https://github.com/tuya/T2/blob/master/README.md) | 简体中文
+[English](https://github.com/tuya/T2/blob/master/tools/tyutool/README.md) | 简体中文
 
 TuyaOS Flash下载工具 tuya uart tool 是涂鸦自研的开发阶段调试使用的串口下载工具，统一便捷的操作模式，可支持多种芯片，支持命令行和图形化界面，支持 Linux、Windows、macOS 等操作系统。
 
@@ -7,10 +7,10 @@ TuyaOS Flash下载工具 tuya uart tool 是涂鸦自研的开发阶段调试使�
 
 | 开发框架 | 类型        | 开发平台     | 下载方式     | 下载文件类型 | 支持波特率 | 功能 |
 | -------- | ----------------- | --------- | ------------ | ------------ | ---------- |  ---------- | 
-| 联网单品 | WiFi BLE 双模设备 | BK7231N    | 串口         | QIO.bin      | 921600/1500000/2000000     | 写/读 |
-|          | WiFi BLE 双模设备 | T2         | 串口         | QIO.bin      | 921600/1500000/2000000     | 写/读 |
-|          | WiFi BLE 双模设备 | RTL8720CF   | 串口         | QIO.bin      | 2000000    | 写 |
-|          | WiFi BLE 双模设备 | RTL8720CM    | 串口         | QIO.bin      | 2000000    | 写 |
+| 联网单品 | WiFi && BLE 双模设备 | BK7231N    | 串口         | QIO.bin      | 921600/1500000/2000000     | 写/读 |
+|          | WiFi && BLE 双模设备 | T2         | 串口         | QIO.bin      | 921600/1500000/2000000     | 写/读 |
+|          | WiFi && BLE 双模设备 | RTL8720CF   | 串口         | QIO.bin      | 2000000    | 写 |
+|          | WiFi && BLE 双模设备 | RTL8720CM    | 串口         | QIO.bin      | 2000000    | 写 |
 
 更多芯片适配开发中。
 
