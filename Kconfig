@@ -33,6 +33,10 @@ menu "configure linux-ubuntu-6.2.0_64Bit"
         bool "ENABLE_WIRED --- use wired to connect"
         default y
 
+    config ENABLE_BLUETOOTH
+        bool "ENABLE_BLUETOOTH --- use bluetooth to connect"
+        default n
+
     config LITTLE_END
         int "LITTLE_END --- mandatory for board"
         default 1
