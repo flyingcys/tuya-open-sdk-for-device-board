@@ -1,6 +1,6 @@
 menu "configure bk7231n"
     config OPERATING_SYSTEM
-        int "OPERATING_SYSTEM --- mandatory for board"
+        int
         default 98
         ---help---
             100     /* LINUX */
@@ -20,7 +20,7 @@ menu "configure bk7231n"
         default y
 
     config LITTLE_END
-        int "LITTLE_END --- mandatory for board"
+        int
         default 1
         ---help---
             0       /* big endian */
