@@ -21,12 +21,14 @@ LOCAL_OUTPUT_DIR_OBJS = $(LOCAL_OUTPUT_DIR)/.objs
 LOCAL_OBJS = $(addsuffix .o, $(LOCAL_SRC_FILES))
 #user的实际obj地址
 LOCAL_OBJS_OUT =  $(addprefix $(LOCAL_OUTPUT_DIR_OBJS)/, $(LOCAL_OBJS))
+DEP_FILES = $(patsubst %.o,%.d,$(LOCAL_OBJS_OUT))
 
 $(LOCAL_OUTPUT_DIR_OBJS)/%.c.o: %.c
 	@echo "CC $<"
 	@mkdir -p $(dir $@);
-	$(CC) $(LOCAL_CFLAGS) -o $@ -c $<
+	$(CC) $(LOCAL_CFLAGS) -o $@ -c -MMD $<
 
+-include $(DEP_FILES)
 
 #库文件路径
 TUYAOS_LIB_DIR = $(LIBS_DIR)
