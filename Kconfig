@@ -1,6 +1,6 @@
 menu "configure linux-ubuntu-6.2.0_64Bit"
     config OPERATING_SYSTEM
-        int "OPERATING_SYSTEM --- mandatory for board"
+        int
         default 100
         ---help---
             100     /* LINUX */
