@@ -38,6 +38,10 @@ echo OUTPUT_DIR=$OUTPUT_DIR
 echo USER_CMD=$USER_CMD
 echo TARGET=$TARGET
 
+export TUYAOS_HEADER_DIR=$HEADER_DIR
+export TUYAOS_LIBS_DIR=$LIBS_DIR
+export TUYAOS_LIBS=$LIBS
+
 if [ "$USER_CMD" = "build" ]; then
     USER_CMD=all
 fi
@@ -67,13 +71,17 @@ echo "Build Target: $TARGET"
 cd tuyaos
 if [ "${USER_CMD}" = "clean" ]; then
     idf.py fullclean
+    exit 0
+elif [ "${USER_CMD}" = "menuconfig" ]; then
+    idf.py menuconfig
+    exit 0
 fi
 
 if [ ${TARGET} != ${OLD_TARGET} ]; then
     idf.py set-target ${TARGET}
 fi
 
-idf.py build
+idf.py --verbose build
 
 echo ${TARGET} > ${TOP_DIR}/.target
 
