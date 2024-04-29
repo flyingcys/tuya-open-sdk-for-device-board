@@ -48,23 +48,15 @@ fi
 
 TOP_DIR=$(pwd)
 
-if [ -z "$TARGET" ]; then
-    TARGET="esp32"
-fi
+. board_prepare.sh 
 
-echo "Target: $TARGET"
-
-export OPENSDK_ESPIDF_PATH=./esp-idf
 export IDF_TOOLS_PATH=${TOP_DIR}/.espressif
 
-bash board_prepare.sh 
+cd ${IDF_PATH}
+. export.sh
+cd -
 
-. ${OPENSDK_ESPIDF_PATH}/export.sh
 
-if [ -f ${TOP_DIR}/.target ]; then
-    OLD_TARGET=$(cat ${TOP_DIR}/.target)
-    echo OLD_TARGET: ${OLD_TARGET}
-fi
 
 echo "Build Target: $TARGET"
 
@@ -77,11 +69,32 @@ elif [ "${USER_CMD}" = "menuconfig" ]; then
     exit 0
 fi
 
-if [ ${TARGET} != ${OLD_TARGET} ]; then
+if [ -f ${TOP_DIR}/.target ]; then
+    OLD_TARGET=$(cat ${TOP_DIR}/.target)
+    echo OLD_TARGET: ${OLD_TARGET}
+fi
+
+if [ ! -f ${TOP_DIR}/.target ] || [ x"${TARGET}" != x"${OLD_TARGET}" ] ; then
+    idf.py clean
+    idf.py fullclean
+    echo "================set-target ${TARGET}"
     idf.py set-target ${TARGET}
 fi
 
-idf.py --verbose build
+if [ "${USER_CMD}" = "all" ]; then
+    idf.py build
+    idf.py menuconfig
+    idf.py size-files
+    idf.py app-size
+    idf.py flash
+    idf.py monitor
+    idf.py erase_flash
+    idf.py flash_idf_monitor
+    idf.py flash_partitions
+    idf.py set-target ${TARGET}
+fi
+
+idf.py build
 
 echo ${TARGET} > ${TOP_DIR}/.target
 
