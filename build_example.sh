@@ -50,19 +50,18 @@ TOP_DIR=$(pwd)
 
 . board_prepare.sh 
 
-export IDF_TOOLS_PATH=${TOP_DIR}/.espressif
+# export IDF_TOOLS_PATH=${TOP_DIR}/.espressif
 
 cd ${IDF_PATH}
 . export.sh
 cd -
 
-
-
 echo "Build Target: $TARGET"
 
 cd tuyaos
 if [ "${USER_CMD}" = "clean" ]; then
-    idf.py fullclean
+    idf.py clean
+    rm -rf .target
     exit 0
 elif [ "${USER_CMD}" = "menuconfig" ]; then
     idf.py menuconfig
@@ -75,27 +74,13 @@ if [ -f ${TOP_DIR}/.target ]; then
 fi
 
 if [ ! -f ${TOP_DIR}/.target ] || [ x"${TARGET}" != x"${OLD_TARGET}" ] ; then
-    idf.py clean
-    idf.py fullclean
-    echo "================set-target ${TARGET}"
+    echo "set-target ${TARGET}"
     idf.py set-target ${TARGET}
 fi
 
-if [ "${USER_CMD}" = "all" ]; then
-    idf.py build
-    idf.py menuconfig
-    idf.py size-files
-    idf.py app-size
-    idf.py flash
-    idf.py monitor
-    idf.py erase_flash
-    idf.py flash_idf_monitor
-    idf.py flash_partitions
-    idf.py set-target ${TARGET}
-fi
+echo ${TARGET} > ${TOP_DIR}/.target
 
 idf.py build
 
-echo ${TARGET} > ${TOP_DIR}/.target
 
 exit 0

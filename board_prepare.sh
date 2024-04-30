@@ -5,7 +5,7 @@ TOP_DIR=$(pwd)
 
 echo $TOP_DIR
 export IDF_PATH=${TOP_DIR}/esp-idf
-export IDF_TOOLS_PATH=${TOP_DIR}/.espressif
+# export IDF_TOOLS_PATH=${TOP_DIR}/.espressif
 
 echo "Start board prepare ..."
 
