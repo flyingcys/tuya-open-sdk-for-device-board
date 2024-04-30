@@ -3,11 +3,11 @@
 set(CMAKE_SYSTEM_NAME Linux)
 set(CMAKE_SYSTEM_PROCESSOR Linux)
 
-# set toolchain path
+# set toolchain
+message(STATUS "[TOP] BOARD_PATH: ${BOARD_PATH}")
+
 set(TOOLCHAIN_DIR "${BOARD_PATH}/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf")
 set(TOOLCHAIN_PRE "xtensa-esp32s3-elf-")
-
-message(STATUS "[TOP] BOARD_PATH: ${BOARD_PATH}")
 
 set(CMAKE_AR "${TOOLCHAIN_DIR}/bin/${TOOLCHAIN_PRE}ar")
 set(CMAKE_C_COMPILER "${TOOLCHAIN_DIR}/bin/${TOOLCHAIN_PRE}gcc")
