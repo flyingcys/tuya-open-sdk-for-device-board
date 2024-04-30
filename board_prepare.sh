@@ -33,6 +33,4 @@ if [ ! -d ${IDF_TOOLS_PATH} ];then
     cd -
 fi
 
-rm -rf .target
-
 echo "Run board prepare success ..."

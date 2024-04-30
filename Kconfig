@@ -1,4 +1,4 @@
-menu "configure bk7231n"
+menu "configure esp32"
     config OPERATING_SYSTEM
         int
         default 98
