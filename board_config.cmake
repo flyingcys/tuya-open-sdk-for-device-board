@@ -1,0 +1,1 @@
+list_subdirectories(BOARD_PUBINC ${BOARD_PATH}/tuya_open_sdk/tuyaos_adapter)
