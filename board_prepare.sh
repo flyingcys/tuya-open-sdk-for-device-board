@@ -27,29 +27,44 @@ if [ ! -d ${PICO_SDK_PATH} ]; then
     fi
 fi
 
-if [ -d "$TOOLCHAIN_NAME" ]; then
-    if [ -n "$(ls -A $TOOLCHAIN_NAME)" ]; then
-        echo "Toolchain $TOOLCHAIN_NAME check Successful"
-        echo "Run board prepare success ..."
-        exit 0
-    fi
-fi
+# if [ -d "$TOOLCHAIN_NAME" ]; then
+#     if [ -n "$(ls -A $TOOLCHAIN_NAME)" ]; then
+#         echo "Toolchain $TOOLCHAIN_NAME check Successful"
+#         echo "Run board prepare success ..."
+#         exit 0
+#     fi
+# fi
 
 echo "Start download toolchain"
 # restult=$(curl -m 15 -s http://www.ip-api.com/json)
 # country=$(echo $restult | sed 's/.*"country":"\([^"]*\)".*/\1/')
 # echo "country: $country"
 
+HOST_MACHINE=$(uname -m)
+
 case "$(uname -s)" in
 Linux*)
 	SYSTEM_NAME="Linux"
-    TOOLCHAIN_URL=https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/10.3-2021.10/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux.tar.bz2
-    TOOLCHAIN_FILE=gcc-arm-none-eabi-10.3-2021.10-x86_64-linux.tar.bz2
+    if [ $HOST_MACHINE = "x86_64" ]; then
+        TOOLCHAIN_URL=https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/10.3-2021.10/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux.tar.bz2
+        TOOLCHAIN_FILE=gcc-arm-none-eabi-10.3-2021.10-x86_64-linux.tar.bz2
+    elif [ $HOST_MACHINE = "aarch64" ]; then
+        TOOLCHAIN_URL=https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/10.3-2021.10/gcc-arm-none-eabi-10.3-2021.10-aarch64-linux.tar.bz2
+        TOOLCHAIN_FILE=gcc-arm-none-eabi-10.3-2021.10-aarch64-linux.tar.bz2
+    else
+        echo "Toolchain not support, Please download toolchain from https://developer.arm.com/downloads/-/gnu-rm"
+        exit 1    
+    fi
 	;;
 Darwin*)
 	SYSTEM_NAME="Apple"
-    TOOLCHAIN_URL=https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/10.3-2021.10/gcc-arm-none-eabi-10.3-2021.10-mac.tar.bz2
-    TOOLCHAIN_FILE=gcc-arm-none-eabi-10.3-2021.10-mac.tar.bz2
+    if [ $HOST_MACHINE = "x86_64" ]; then
+        TOOLCHAIN_URL=https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/10.3-2021.10/gcc-arm-none-eabi-10.3-2021.10-mac.tar.bz2
+        TOOLCHAIN_FILE=gcc-arm-none-eabi-10.3-2021.10-mac.tar.bz2
+    else
+        echo "Toolchain not support, Please download toolchain from https://developer.arm.com/downloads/-/gnu-rm"
+        exit 1
+    fi
 	;;
 MINGW* | CYGWIN* | MSYS*)
 	SYSTEM_NAME="Windows"
