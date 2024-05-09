@@ -53,7 +53,7 @@ PICO_TOOLCHAIN=${TOP_DIR}/${TOOLCHAIN_NAME}
 echo "PICO_TOOLCHAIN=$PICO_TOOLCHAIN"
 export PATH=$PATH:${PICO_TOOLCHAIN}
 
-cd tuya_open_sdk
+cd tuyaos
 
 mkdir -p build
 

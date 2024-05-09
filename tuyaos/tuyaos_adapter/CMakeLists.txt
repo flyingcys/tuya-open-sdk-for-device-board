@@ -10,3 +10,5 @@ set(include_dirs
     "include/system"
     "include/utilities/include"
     )
+
+add_library(tuyaos_adapter ${SOURCES})

@@ -1,0 +1,3 @@
+/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuyaos/build/pioasm/CMakeFiles/pioasm.dir
+/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuyaos/build/pioasm/CMakeFiles/edit_cache.dir
+/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuyaos/build/pioasm/CMakeFiles/rebuild_cache.dir
