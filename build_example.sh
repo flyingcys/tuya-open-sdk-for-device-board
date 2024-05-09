@@ -45,8 +45,8 @@ if [ "$USER_CMD" = "build" ]; then
 fi
 
 TOP_DIR=$(pwd)
-PICO_SDK_PATH =${TOP_DIR}/pico-sdk
-export PICO_SDK_PATH
+PICO_SDK_PATH=${TOP_DIR}/pico-sdk
+export PICO_SDK_PATH=${PICO_SDK_PATH}
 
 TOOLCHAIN_NAME=gcc-arm-none-eabi-10.3-2021.10
 PICO_TOOLCHAIN=${TOP_DIR}/${TOOLCHAIN_NAME}
@@ -54,20 +54,17 @@ echo "PICO_TOOLCHAIN=$PICO_TOOLCHAIN"
 export PATH=$PATH:${PICO_TOOLCHAIN}
 
 cd tuya_open_sdk
+
+mkdir -p build
+
+cmake -S . -B build
+
 if [ "${USER_CMD}" = "clean" ]; then
-    make clean
+    make clean -C build
+    rm -rf build
     exit 0
-
 fi
 
-if [ ! -f ${TOP_DIR}/.target ] || [ x"${TARGET}" != x"${OLD_TARGET}" ] ; then
-    echo "set-target ${TARGET}"
-    idf.py set-target ${TARGET}
-fi
-
-echo ${TARGET} > ${TOP_DIR}/.target
-
-idf.py build
-
+make -C build
 
 exit 0
