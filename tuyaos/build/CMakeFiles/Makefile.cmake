@@ -118,7 +118,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt.in"
   "pico-sdk/src/rp2_common/tinyusb/pioasm/tmp/PioasmBuild-cfgcmd.txt.in"
   "../pico_sdk_import.cmake"
-  "../tuyaos_adapter/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/CMakeASMCompiler.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeASMInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in"
@@ -313,7 +312,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2040/hardware_regs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2040/hardware_structs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "tuyaos_adapter/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -327,5 +325,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake"
-  "tuyaos_adapter/CMakeFiles/tuyaos_adapter.dir/DependInfo.cmake"
   )

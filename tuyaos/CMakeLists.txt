@@ -9,11 +9,11 @@ set(CMAKE_CXX_STANDARD 17)
 
 pico_sdk_init()
 
-add_subdirectory(tuyaos_adapter)
+# add_subdirectory(tuyaos_adapter)
 
 add_executable(tuyaos
     main.c
 )
 
 pico_add_extra_outputs(tuyaos)
-target_link_libraries(tuyaos pico_stdlib tuyaos_adapter)
+target_link_libraries(tuyaos pico_stdlib)

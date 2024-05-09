@@ -801,7 +801,6 @@ tuyaos.elf: CMakeFiles/tuyaos.dir/home/share/samba/tuya/tuya-open-sdk-for-device
 tuyaos.elf: CMakeFiles/tuyaos.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 tuyaos.elf: CMakeFiles/tuyaos.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 tuyaos.elf: CMakeFiles/tuyaos.dir/build.make
-tuyaos.elf: tuyaos_adapter/libtuyaos_adapter.a
 tuyaos.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 tuyaos.elf: CMakeFiles/tuyaos.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuyaos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable tuyaos.elf"

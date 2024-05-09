@@ -233,19 +233,6 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-#=============================================================================
-# Target rules for targets named tuyaos_adapter
-
-# Build rule for target.
-tuyaos_adapter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tuyaos_adapter
-.PHONY : tuyaos_adapter
-
-# fast build rule for target.
-tuyaos_adapter/fast:
-	$(MAKE) $(MAKESILENT) -f tuyaos_adapter/CMakeFiles/tuyaos_adapter.dir/build.make tuyaos_adapter/CMakeFiles/tuyaos_adapter.dir/build
-.PHONY : tuyaos_adapter/fast
-
 home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/pico_sync/critical_section.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/pico_sync/critical_section.obj
 
@@ -1191,7 +1178,6 @@ help:
 	@echo "... tinyusb_pico_pio_usb_usb_tx_pio_h"
 	@echo "... bs2_default"
 	@echo "... tuyaos"
-	@echo "... tuyaos_adapter"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/pico_sync/critical_section.s"

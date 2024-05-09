@@ -169,6 +169,3 @@
 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuyaos/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuyaos/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuyaos/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
-/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuyaos/build/tuyaos_adapter/CMakeFiles/tuyaos_adapter.dir
-/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuyaos/build/tuyaos_adapter/CMakeFiles/edit_cache.dir
-/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuyaos/build/tuyaos_adapter/CMakeFiles/rebuild_cache.dir
