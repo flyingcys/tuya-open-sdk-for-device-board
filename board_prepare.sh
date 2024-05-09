@@ -48,7 +48,8 @@ Linux*)
 	;;
 Darwin*)
 	SYSTEM_NAME="Apple"
-    exit 1
+    TOOLCHAIN_URL=https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/10.3-2021.10/gcc-arm-none-eabi-10.3-2021.10-mac.tar.bz2
+    TOOLCHAIN_FILE=gcc-arm-none-eabi-10.3-2021.10-mac.tar.bz2
 	;;
 MINGW* | CYGWIN* | MSYS*)
 	SYSTEM_NAME="Windows"
