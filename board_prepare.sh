@@ -18,22 +18,21 @@ if [ ! -d ${PICO_SDK_PATH} ]; then
     if [ $? -ne 0 ]; then
         echo "git clone pico-sdk failed ..."
         exit 1
-    else
-        cd ${PICO_SDK_PATH}
-        git submodule update --init
-        cd -
-        
-        echo "git clone pico-sdk success ..."
     fi
+    echo "git clone pico-sdk success ..."
 fi
 
-# if [ -d "$TOOLCHAIN_NAME" ]; then
-#     if [ -n "$(ls -A $TOOLCHAIN_NAME)" ]; then
-#         echo "Toolchain $TOOLCHAIN_NAME check Successful"
-#         echo "Run board prepare success ..."
-#         exit 0
-#     fi
-# fi
+cd ${PICO_SDK_PATH}
+git submodule update --init
+cd -
+
+if [ -d "$TOOLCHAIN_NAME" ]; then
+    if [ -n "$(ls -A $TOOLCHAIN_NAME)" ]; then
+        echo "Toolchain $TOOLCHAIN_NAME check Successful"
+        echo "Run board prepare success ..."
+        exit 0
+    fi
+fi
 
 echo "Start download toolchain"
 # restult=$(curl -m 15 -s http://www.ip-api.com/json)
