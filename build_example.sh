@@ -53,11 +53,11 @@ PICO_TOOLCHAIN=${TOP_DIR}/${TOOLCHAIN_NAME}
 echo "PICO_TOOLCHAIN=$PICO_TOOLCHAIN"
 export PICO_TOOLCHAIN_PATH=${PICO_TOOLCHAIN}
 
-cd tuyaos
+cd tuya-open-sdk
 
 mkdir -p build
 
-cmake -S . -B build
+cmake -S . -B build -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON
 
 if [ "${USER_CMD}" = "clean" ]; then
     make clean -C build
@@ -65,6 +65,6 @@ if [ "${USER_CMD}" = "clean" ]; then
     exit 0
 fi
 
-make -C build
+make -C build VERBOSE=1
 
 exit 0
