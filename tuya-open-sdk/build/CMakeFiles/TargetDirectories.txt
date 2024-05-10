@@ -2,6 +2,8 @@
 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuya-open-sdk/build/CMakeFiles/ELF2UF2Build.dir
 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuya-open-sdk/build/CMakeFiles/edit_cache.dir
 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuya-open-sdk/build/CMakeFiles/rebuild_cache.dir
+/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuya-open-sdk/build/FREERTOS_KERNEL/CMakeFiles/edit_cache.dir
+/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuya-open-sdk/build/FREERTOS_KERNEL/CMakeFiles/rebuild_cache.dir
 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuya-open-sdk/build/pico-sdk/CMakeFiles/edit_cache.dir
 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuya-open-sdk/build/pico-sdk/CMakeFiles/rebuild_cache.dir
 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuya-open-sdk/build/pico-sdk/tools/CMakeFiles/edit_cache.dir

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/boards/include/boards/pico.h
+/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/boards/include/boards/pico_w.h
 
 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/pico_base/include/pico.h
 pico/types.h
@@ -183,7 +183,7 @@ pico/binary_info/defs.h
 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_standard_link/pico/binary_info/defs.h
 
 generated/pico_base/pico/config_autogen.h
-/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/boards/include/boards/pico.h
+/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/boards/include/boards/pico_w.h
 -
 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 -

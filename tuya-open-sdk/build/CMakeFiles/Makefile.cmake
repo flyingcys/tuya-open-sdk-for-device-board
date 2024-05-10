@@ -7,6 +7,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/CMakeLists.txt"
+  "/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/library.cmake"
+  "/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/pico_sdk_import.cmake"
   "/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/CMakeLists.txt"
   "/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/cmake/Platform/PICO.cmake"
   "/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/cmake/pico_pre_load_platform.cmake"
@@ -27,6 +30,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/CMakeLists.txt"
   "/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/board_setup.cmake"
   "/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/boards/generic_board.cmake"
+  "/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/boards/pico_w.cmake"
   "/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/CMakeLists.txt"
   "/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/boot_picoboot/CMakeLists.txt"
   "/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/boot_uf2/CMakeLists.txt"
@@ -111,6 +115,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/tools/FindELF2UF2.cmake"
   "/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/tools/FindPioasm.cmake"
   "../CMakeLists.txt"
+  "../FreeRTOS_Kernel_import.cmake"
   "CMakeFiles/3.22.1/CMakeASMCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
@@ -151,6 +156,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "FREERTOS_KERNEL/CMakeFiles/CMakeDirectoryInformation.cmake"
   "generated/pico_base/pico/version.h"
   "generated/pico_base/pico/config_autogen.h"
   "pico-sdk/CMakeFiles/CMakeDirectoryInformation.cmake"

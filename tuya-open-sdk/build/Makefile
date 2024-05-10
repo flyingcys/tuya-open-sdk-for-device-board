@@ -31,9 +31,6 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -248,6 +245,2430 @@ tuyaos_adapter: cmake_check_build_system
 tuyaos_adapter/fast:
 	$(MAKE) $(MAKESILENT) -f tuyaos_adapter/CMakeFiles/tuyaos_adapter.dir/build.make tuyaos_adapter/CMakeFiles/tuyaos_adapter.dir/build
 .PHONY : tuyaos_adapter/fast
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.c.s
 
 home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/pico_sync/critical_section.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/pico_sync/critical_section.obj
@@ -521,6 +2942,78 @@ home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_com
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
 home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 
@@ -576,6 +3069,30 @@ home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_com
 home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pll/pll.obj
@@ -745,6 +3262,54 @@ home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_com
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.s
+
 home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
@@ -776,6 +3341,198 @@ home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_com
 home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
 home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_divider/divider.obj
@@ -921,6 +3678,30 @@ home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_com
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.s
+
 home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
 
@@ -952,6 +3733,30 @@ home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_com
 home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 
 home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_platform/platform.obj
@@ -1000,6 +3805,30 @@ home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_com
 home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.obj
+
+# target to build an object file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.i
+
+# target to preprocess a source file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.s
+
+# target to generate assembly for a file
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.c.s
 
 home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
@@ -1153,29 +3982,53 @@ home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_com
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-main.obj: main.c.obj
-.PHONY : main.obj
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/main.c.obj
-.PHONY : main.c.obj
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/main.c.i
-.PHONY : main.c.i
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/main.c.s
-.PHONY : main.c.s
+home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+picow_freertos_ping.obj: picow_freertos_ping.c.obj
+.PHONY : picow_freertos_ping.obj
+
+# target to build an object file
+picow_freertos_ping.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/picow_freertos_ping.c.obj
+.PHONY : picow_freertos_ping.c.obj
+
+picow_freertos_ping.i: picow_freertos_ping.c.i
+.PHONY : picow_freertos_ping.i
+
+# target to preprocess a source file
+picow_freertos_ping.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/picow_freertos_ping.c.i
+.PHONY : picow_freertos_ping.c.i
+
+picow_freertos_ping.s: picow_freertos_ping.c.s
+.PHONY : picow_freertos_ping.s
+
+# target to generate assembly for a file
+picow_freertos_ping.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuya-open-sdk.dir/build.make CMakeFiles/tuya-open-sdk.dir/picow_freertos_ping.c.s
+.PHONY : picow_freertos_ping.c.s
 
 # Help Target
 help:
@@ -1195,6 +4048,309 @@ help:
 	@echo "... bs2_default"
 	@echo "... tuya-open-sdk"
 	@echo "... tuyaos_adapter"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/croutine.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/event_groups.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/list.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/MemMang/heap_4.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/queue.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/stream_buffer.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/tasks.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/FreeRTOS-Kernel/timers.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/apps/ping/ping.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_lib.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/api_msg.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/err.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/if_api.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netbuf.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netdb.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/netifapi.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/sockets.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/api/tcpip.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_alloc.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/altcp_tcp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/def.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/dns.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/inet_chksum.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/init.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ip.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/acd.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/autoip.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/etharp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/icmp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/igmp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/inet6.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/mld6.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/ipv6/nd6.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/mem.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/memp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/netif.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/pbuf.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/raw.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/stats.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/sys.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_in.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/tcp_out.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/timeouts.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/core/udp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ethernet.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/lowpan6_common.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/auth.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ccp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/demand.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eap.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ecp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/eui64.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/fsm.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/lcp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/magic.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/mppe.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/multilink.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/ppp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/pppos.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/upap.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/utils.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/ppp/vj.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/slipif.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/lib/lwip/src/netif/zepif.s"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/common/pico_sync/critical_section.s"
@@ -1229,6 +4385,15 @@ help:
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_dma/dma.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_exception/exception.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_flash/flash.s"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
@@ -1236,6 +4401,9 @@ help:
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_irq/irq.s"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pio/pio.s"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_pll/pll.s"
@@ -1257,10 +4425,40 @@ help:
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.s"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_divider/divider.obj"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
@@ -1279,16 +4477,25 @@ help:
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_float/float_math.s"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.s"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.s"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_platform/platform.obj"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_platform/platform.i"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_platform/platform.s"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_printf/printf.obj"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_printf/printf.i"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_rand/rand.s"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
@@ -1308,9 +4515,12 @@ help:
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... main.obj"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
+	@echo "... home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... picow_freertos_ping.obj"
+	@echo "... picow_freertos_ping.i"
+	@echo "... picow_freertos_ping.s"
 .PHONY : help
 
 

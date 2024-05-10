@@ -39,6 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuya-open-sdk/build/FREERTOS_KERNEL/cmake_install.cmake")
   include("/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuya-open-sdk/build/pico-sdk/cmake_install.cmake")
   include("/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/tuya-open-sdk/build/tuyaos_adapter/cmake_install.cmake")
 

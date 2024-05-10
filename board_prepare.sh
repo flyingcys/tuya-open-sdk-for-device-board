@@ -26,6 +26,15 @@ cd ${PICO_SDK_PATH}
 git submodule update --init
 cd -
 
+FREERTOS_KERNEL_PATH=${TOP_DIR}/FreeRTOS-Kernel
+if [ ! -d "${FREERTOS_KERNEL_PATH}" ]; then
+    git clone https://github.com/FreeRTOS/FreeRTOS-Kernel -b smp --depth=1
+    if [ $? -ne 0 ]; then
+        echo "git clone FreeRTOS-Kernel failed ..."
+        exit 1
+    fi
+fi
+
 if [ -d "$TOOLCHAIN_NAME" ]; then
     if [ -n "$(ls -A $TOOLCHAIN_NAME)" ]; then
         echo "Toolchain $TOOLCHAIN_NAME check Successful"

@@ -545,6 +545,53 @@ tuyaos_adapter/CMakeFiles/tuyaos_adapter.dir/src/drivers/tkl_flash.c.obj: ../tuy
   /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/alloca.h \
   /home/share/samba/tuya/tuya-open-sdk-for-device/src/common/include/tuya_error_code.h
 
+tuyaos_adapter/CMakeFiles/tuyaos_adapter.dir/src/drivers/tkl_lwip.c.obj: ../tuyaos_adapter/src/drivers/tkl_lwip.c \
+  ../tuyaos_adapter/include/network/tkl_lwip.h \
+  ../tuyaos_adapter/include/utilities/include/tuya_cloud_types.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/src/common/include/tuya_iot_config.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/build/include/tuya_kconfig.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_intsup.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/string.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/config.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/reent.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_types.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_types.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/lock.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/cdefs.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_locale.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/strings.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/string.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/endian.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_endian.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/select.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_sigset.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_timeval.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/timespec.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_timespec.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/sched.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdlib.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/stdlib.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/alloca.h \
+  /home/share/samba/tuya/tuya-open-sdk-for-device/src/common/include/tuya_error_code.h
+
 tuyaos_adapter/CMakeFiles/tuyaos_adapter.dir/src/drivers/tkl_uart.c.obj: ../tuyaos_adapter/src/drivers/tkl_uart.c \
   ../tuyaos_adapter/include/uart/tkl_uart.h \
   ../tuyaos_adapter/include/utilities/include/tuya_cloud_types.h \
@@ -1122,6 +1169,8 @@ tuyaos_adapter/CMakeFiles/tuyaos_adapter.dir/src/system/tkl_thread.c.obj: ../tuy
 
 ../tuyaos_adapter/src/drivers/tkl_watchdog.c:
 
+../tuyaos_adapter/src/drivers/tkl_lwip.c:
+
 ../tuyaos_adapter/src/drivers/tkl_flash.c:
 
 ../tuyaos_adapter/include/utilities/include/tuya_tools.h:
@@ -1187,6 +1236,8 @@ tuyaos_adapter/CMakeFiles/tuyaos_adapter.dir/src/system/tkl_thread.c.obj: ../tuy
 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/config.h:
 
 ../tuyaos_adapter/src/system/tkl_system.c:
+
+../tuyaos_adapter/include/network/tkl_lwip.h:
 
 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
 
