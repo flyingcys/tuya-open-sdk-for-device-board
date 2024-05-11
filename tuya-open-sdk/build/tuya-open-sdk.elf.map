@@ -2453,9 +2453,9 @@ Discarded input sections
                 0x0000000000000000        0x8 CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .bss.lockout_victim_initialized
                 0x0000000000000000        0x2 CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccKreZiM.o
- .data          0x0000000000000000        0x0 /tmp/ccKreZiM.o
- .bss           0x0000000000000000        0x0 /tmp/ccKreZiM.o
+ .text          0x0000000000000000        0x0 /tmp/ccprKzvH.o
+ .data          0x0000000000000000        0x0 /tmp/ccprKzvH.o
+ .bss           0x0000000000000000        0x0 /tmp/ccprKzvH.o
  .data          0x0000000000000000        0x0 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000        0x0 /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atoi.o)
@@ -2708,7 +2708,7 @@ LOAD /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-e
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccKreZiM.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccprKzvH.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -5615,7 +5615,7 @@ LOAD CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device
 LOAD /home/share/samba/tuya/tuya-open-sdk-for-device/build/lib/libtuyaapp.a
 LOAD /home/share/samba/tuya/tuya-open-sdk-for-device/build/lib/libtuyaos.a
 LOAD tuyaos_adapter/libtuyaos_adapter.a
-LOAD /tmp/ccKreZiM.o
+LOAD /tmp/ccprKzvH.o
 LOAD /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -5807,7 +5807,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000e34       0x2c CMakeFiles/tuya-open-sdk.dir/home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .ARM.attributes
-                0x0000000000000e60       0x22 /tmp/ccKreZiM.o
+                0x0000000000000e60       0x22 /tmp/ccprKzvH.o
  .ARM.attributes
                 0x0000000000000e82       0x1e /home/share/samba/tuya/tuya-open-sdk-for-device/board/pico-w/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

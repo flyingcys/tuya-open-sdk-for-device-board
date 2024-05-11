@@ -59,7 +59,7 @@ mkdir -p build
 
 FREERTOS_KERNEL_PATH=${TOP_DIR}/FreeRTOS-Kernel
 
-cmake -S . -B build -DPICO_BOARD=pico_w -DFREERTOS_KERNEL_PATH=${FREERTOS_KERNEL_PATH} #-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON
+cmake -S . -B build -DPICO_BOARD=pico_w -DFREERTOS_KERNEL_PATH=${FREERTOS_KERNEL_PATH} -DCMAKE_VERBOSE_MAKEFILE:BOOL=OFF
 
 if [ "${USER_CMD}" = "clean" ]; then
     make clean -C build
@@ -67,6 +67,6 @@ if [ "${USER_CMD}" = "clean" ]; then
     exit 0
 fi
 
-make -C build #VERBOSE=1
+make -C build VERBOSE=0
 
 exit 0

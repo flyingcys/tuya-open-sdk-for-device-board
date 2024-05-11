@@ -17,5 +17,4 @@ SET (CMAKE_C_COMPILER_WORKS 1)
 SET (CMAKE_CXX_COMPILER_WORKS 1)
 
 # set CFLAGS
-# -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations
 set(CMAKE_C_FLAGS "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG -Wall -Wno-format -Wno-unused-function -Wno-maybe-uninitialized -ffunction-sections -fdata-sections -std=gnu11")

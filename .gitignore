@@ -1,4 +1,4 @@
 pico-sdk
 gcc-arm-none-eabi-*
-tuyaos/build
+tuya-open-sdk/build
 FreeRTOS-Kernel
