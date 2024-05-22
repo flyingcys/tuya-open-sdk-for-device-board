@@ -7,4 +7,4 @@ cmake_minimum_required(VERSION 3.16)
 set(EXTRA_COMPONENT_DIRS tuyaos_adapter)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(main)
+project(tuya_open_sdk)

@@ -6,12 +6,12 @@ set(CMAKE_SYSTEM_PROCESSOR Linux)
 # set toolchain
 message(STATUS "[TOP] BOARD_PATH: ${BOARD_PATH}")
 
-set(TOOLCHAIN_DIR "${BOARD_PATH}/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf")
+set(TOOLCHAIN_DIR "${BOARD_PATH}/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin")
 set(TOOLCHAIN_PRE "xtensa-esp32s2-elf-")
 
-set(CMAKE_AR "${TOOLCHAIN_DIR}/bin/${TOOLCHAIN_PRE}ar")
-set(CMAKE_C_COMPILER "${TOOLCHAIN_DIR}/bin/${TOOLCHAIN_PRE}gcc")
-set(CMAKE_CXX_COMPILER "${TOOLCHAIN_DIR}/bin/${TOOLCHAIN_PRE}g++")
+set(CMAKE_AR "${TOOLCHAIN_DIR}/${TOOLCHAIN_PRE}ar")
+set(CMAKE_C_COMPILER "${TOOLCHAIN_DIR}/${TOOLCHAIN_PRE}gcc")
+set(CMAKE_CXX_COMPILER "${TOOLCHAIN_DIR}/${TOOLCHAIN_PRE}g++")
 
 SET (CMAKE_C_COMPILER_WORKS 1)
 SET (CMAKE_CXX_COMPILER_WORKS 1)
