@@ -45,7 +45,7 @@ fi
 rm -rf .target
 
 rm -rf toolchain_file.cmake
-
+rm -rf tuyaos/sdkconfig
 rm -rf tuyaos/sdkconfig.old
 rm -rf tuyaos/build
 

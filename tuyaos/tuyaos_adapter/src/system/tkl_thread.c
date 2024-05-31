@@ -43,7 +43,13 @@ OPERATE_RET tkl_thread_create(TKL_THREAD_HANDLE* thread,
     }
     
     BaseType_t ret = 0;
-    ret = xTaskCreate(func, name, (stack_size * 2) / sizeof(portSTACK_TYPE), (void *const)arg, priority, (TaskHandle_t * const)thread);
+    #if CONFIG_IDF_TARGET_ESP32
+    #elif CONFIG_IDF_TARGET_ESP32S3
+        stack_size += 1024;
+    #else
+
+    #endif
+    ret = xTaskCreate(func, name, stack_size / sizeof(portSTACK_TYPE), (void *const)arg, priority, (TaskHandle_t * const)thread);
     if (ret != pdPASS) {
         return OPRT_OS_ADAPTER_THRD_CREAT_FAILED;
     }

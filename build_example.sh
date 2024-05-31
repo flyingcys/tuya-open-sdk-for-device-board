@@ -105,7 +105,7 @@ fi
 echo ${TARGET} > ${TOP_DIR}/.target
 
 # idf.py --verbose build
-idf.py build
 
+idf.py build
 
 exit 0
