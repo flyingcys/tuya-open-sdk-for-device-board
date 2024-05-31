@@ -17,5 +17,5 @@ SET (CMAKE_C_COMPILER_WORKS 1)
 SET (CMAKE_CXX_COMPILER_WORKS 1)
 
 # set CFLAGS
-# -Werror=all 
-set(CMAKE_C_FLAGS "-std=c99 -mlongcalls -Wno-frame-address -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -Wno-address -Wno-unused-function -Wformat-overflow=2 -Wno-unused-variable -Wno-=unused-but-set-variable -Wno-deprecated-declarations")
+# set(CMAKE_C_FLAGS "-std=c99 -mlongcalls -Wno-frame-address -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -Wno-address -Wno-unused-function -Wformat-overflow=2 -Wno-unused-variable -Wno-=unused-but-set-variable -Wno-deprecated-declarations")
+set(CMAKE_C_FLAGS "-mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Os -freorder-blocks -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration")

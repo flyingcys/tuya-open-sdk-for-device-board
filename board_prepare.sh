@@ -14,6 +14,14 @@ echo $TOP_DIR
 
 echo "Start board prepare ..."
 
+rm -rf .target
+
+rm -rf toolchain_file.cmake
+rm -rf tuyaos/sdkconfig
+rm -rf tuyaos/sdkconfig.old
+rm -rf tuyaos/sdkconfig.defaults
+rm -rf tuyaos/build
+
 IDF_PATH=${TOP_DIR}/esp-idf
 IDF_TOOLS_PATH=${TOP_DIR}/.espressif
 export IDF_PATH
@@ -27,38 +35,39 @@ if [ ! -d ${IDF_PATH} ]; then
     else
         cd ${IDF_PATH}
         git submodule update --init --recursive
-        . ./install.sh
+        . ./install.sh all
         cd -
         
         echo "git clone esp-idf success ..."
     fi
 fi
 
-if [ ! -d ${IDF_TOOLS_PATH} ];then
+if [ ! -d ${IDF_TOOLS_PATH} ] || [ ! -d ${IDF_TOOLS_PATH}/tools ];then
     echo "IDF_TOOLS_PATH is empty ..."
     cd ${IDF_PATH}
     git submodule update --init --recursive
-    . ./install.sh
+    . ./install.sh all
     cd -
 fi
 
-rm -rf .target
-
-rm -rf toolchain_file.cmake
-rm -rf tuyaos/sdkconfig
-rm -rf tuyaos/sdkconfig.old
-rm -rf tuyaos/build
-
 if [ x"$TARGET" = x"esp32" ]; then
     ln -s toolchain_esp32.cmake toolchain_file.cmake
+    cp -rf tuyaos/sdkconfig_esp32 tuyaos/sdkconfig.defaults
 elif [ x"$TARGET" = x"esp32s2" ]; then
     ln -s toolchain_esp32s2.cmake toolchain_file.cmake
+    cp -rf tuyaos/sdkconfig_esp32s2 tuyaos/sdkconfig.defaults
 elif [ x"$TARGET" = x"esp32s3" ]; then
     ln -s toolchain_esp32s3.cmake toolchain_file.cmake
-elif [ x"$TARGET" = x"esp32c2" ] || [ x"$TARGET" = x"esp32c3"]; then
+    cp -rf tuyaos/sdkconfig_esp32s3 tuyaos/sdkconfig.defaults
+elif [ x"$TARGET" = x"esp32c2" ]; then
+    ln -s toolchain_esp32c2.cmake toolchain_file.cmake
+    cp -rf tuyaos/sdkconfig_esp32c2 tuyaos/sdkconfig.defaults
+elif [ x"$TARGET" = x"esp32c3" ]; then
     ln -s toolchain_esp32c3.cmake toolchain_file.cmake
+    cp -rf tuyaos/sdkconfig_esp32c3 tuyaos/sdkconfig.defaults
 elif [ x"$TARGET" = x"esp32c6" ]; then
     ln -s toolchain_esp32c6.cmake toolchain_file.cmake
+    cp -rf tuyaos/sdkconfig_esp32c6 tuyaos/sdkconfig.defaults
 else
     echo "TARGET is empty ..."
     exit 1
