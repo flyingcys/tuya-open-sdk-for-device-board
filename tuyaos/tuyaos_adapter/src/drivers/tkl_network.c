@@ -787,7 +787,7 @@ OPERATE_RET tkl_net_setsockopt(CONST INT_T fd, CONST TUYA_OPT_LEVEL level, CONST
 OPERATE_RET tkl_net_getsockopt(CONST INT_T fd, CONST TUYA_OPT_LEVEL level, CONST TUYA_OPT_NAME optname, VOID_T *optval, INT_T *optlen)
 {
     int ret = 0;
-    ret = getsockopt(fd, level, optname, optval, (UINT_T *)optlen);
+    ret = getsockopt(fd, level, optname, optval, (socklen_t *)optlen);
 
     return ret;
 }

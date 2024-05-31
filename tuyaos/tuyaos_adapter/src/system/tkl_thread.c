@@ -14,7 +14,6 @@
 #include "tuya_error_code.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-#include "freertos/portmacro.h"
 // --- END: user defines and implements ---
 
 /**
@@ -44,7 +43,7 @@ OPERATE_RET tkl_thread_create(TKL_THREAD_HANDLE* thread,
     }
     
     BaseType_t ret = 0;
-    ret = xTaskCreate(func, name, stack_size / sizeof(portSTACK_TYPE), (void *const)arg, priority, thread);
+    ret = xTaskCreate(func, name, (stack_size * 2) / sizeof(portSTACK_TYPE), (void *const)arg, priority, (TaskHandle_t * const)thread);
     if (ret != pdPASS) {
         return OPRT_OS_ADAPTER_THRD_CREAT_FAILED;
     }

@@ -20,4 +20,5 @@ endforeach()
 message(STATUS "TUYAOS_ADAPTER_INCLUDE_DIRS: ${include_dirs}"
 )
 idf_component_register(SRCS "${SOURCES}"
-                    INCLUDE_DIRS "${include_dirs}" PRIV_REQUIRES nvs_flash bt esp_pm esp_adc efuse soc driver)
+                    INCLUDE_DIRS "${include_dirs}" REQUIRES mbedtls nvs_flash bt esp_pm esp_adc efuse soc driver app_update)
+                    

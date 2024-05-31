@@ -18,7 +18,6 @@
 #include "freertos/task.h"
 #include "freertos/semphr.h"
 #include "freertos/timers.h"
-
 // --- END: user defines and implements ---
 
 /**

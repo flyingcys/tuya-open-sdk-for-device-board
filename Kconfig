@@ -17,6 +17,8 @@ menu "configure esp32"
 
     config ENABLE_BLUETOOTH
         bool "ENABLE_BLUETOOTH --- use bluetooth to connect"
+        select ENABLE_BT_SERVICE
+        select ENABLE_NIMBLE
         default y
 
     config LITTLE_END

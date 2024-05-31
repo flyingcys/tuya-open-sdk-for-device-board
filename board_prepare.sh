@@ -2,18 +2,12 @@
 
 set -e
 
-print_not_null()
-{
-    # $1 为空，返回错误
-    if [ x"$1" = x"" ]; then
-        return 1
-    fi
-
-    echo "$1"
-}
-
 TARGET=$1
 echo TARGET=$TARGET
+if [ x"$TARGET" = x"" ]; then
+    echo "Usage: <./ board_prepare.sh esp32|esp32s2|esp32s3|esp32c2|esp32c3|esp32c6>"
+    exit 1
+fi
 
 TOP_DIR=$(pwd)
 echo $TOP_DIR
@@ -52,19 +46,40 @@ rm -rf .target
 
 rm -rf toolchain_file.cmake
 
-if [ "$TARGET" = "esp32" ]; then
+rm -rf tuyaos/sdkconfig.old
+rm -rf tuyaos/build
+
+if [ x"$TARGET" = x"esp32" ]; then
     ln -s toolchain_esp32.cmake toolchain_file.cmake
-elif [ "$TARGET" = "esp32s2" ]; then
+elif [ x"$TARGET" = x"esp32s2" ]; then
     ln -s toolchain_esp32s2.cmake toolchain_file.cmake
-elif [ "$TARGET" = "esp32s3" ]; then
+elif [ x"$TARGET" = x"esp32s3" ]; then
     ln -s toolchain_esp32s3.cmake toolchain_file.cmake
-elif [ "$TARGET" = "esp32c2" ] || [ "$TARGET" = "esp32c3"]; then
+elif [ x"$TARGET" = x"esp32c2" ] || [ x"$TARGET" = x"esp32c3"]; then
     ln -s toolchain_esp32c3.cmake toolchain_file.cmake
-elif [ "$TARGET" = "esp32c6" ]; then
+elif [ x"$TARGET" = x"esp32c6" ]; then
     ln -s toolchain_esp32c6.cmake toolchain_file.cmake
 else
     echo "TARGET is empty ..."
     exit 1
 fi
+
+CONTENT="
+#ifndef MBEDTLS_THREADING_ALT_H
+#define MBEDTLS_THREADING_ALT_H
+
+typedef struct mbedtls_threading_mutex_t {
+    void * mutex;
+    char is_valid;
+} mbedtls_threading_mutex_t;
+
+#endif /* threading_alt.h */
+"
+
+# 指定文件名
+FILENAME="threading_alt.h"
+echo -e "$CONTENT" > "$FILENAME"
+
+cp -f ${FILENAME} ${IDF_PATH}/components/mbedtls/mbedtls/include/mbedtls
 
 echo "Run board prepare success ..."

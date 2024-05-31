@@ -16,6 +16,6 @@ string(REPLACE " " ";" TUYAOS_LIBS_LIST $ENV{TUYAOS_LIBS})
 
 foreach(lib ${TUYAOS_LIBS_LIST})
     message("TUYAOS_LIBS value: ${lib}")
-    add_prebuilt_library(${lib} "${TUYA_OPENSDK_LIB_PATH}/lib${lib}.a" REQUIRES tuyaos_adapter)
+    add_prebuilt_library(${lib} "${TUYA_OPENSDK_LIB_PATH}/lib${lib}.a" REQUIRES tuyaos_adapter mbedtls)
     target_link_libraries(${COMPONENT_LIB} PUBLIC ${lib})
 endforeach()

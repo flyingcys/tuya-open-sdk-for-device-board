@@ -47,9 +47,9 @@ VOID_T tkl_log_output(CONST CHAR_T *format, ...)
     va_start(ap, format);
     vsnprintf(s_output_buf, MAX_SIZE_OF_DEBUG_BUF,format,ap);
     va_end(ap);
-    ESP_LOGI("TKL_LOG", "%s", format);
+    printf("%s", format);
 #else
-    ESP_LOGI("TKL_LOG", "%s", format);
+    printf("%s", format);
 #endif
     // --- END: user implements ---
 }

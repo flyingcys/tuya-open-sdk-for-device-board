@@ -9,11 +9,28 @@
  * 
  */
 
-// --- BEGIN: user defines and implements ---
-#include "tkl_watchdog.h"
-#include "tuya_error_code.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "freertos/queue.h"
 
-// --- END: user defines and implements ---
+#include "esp_err.h"
+#include "esp_log.h"
+#include "esp_system.h"
+#include "esp_random.h"
+#include "esp_task_wdt.h"
+#include "esp_pm.h"
+
+#include "tuya_error_code.h"
+#include "tuya_cloud_types.h"
+
+#include "tkl_system.h"
+#include "tkl_watchdog.h"
+#include "tkl_output.h"
+
+#define DBG_TAG "TKL_SYSTEM"
+unsigned char tuya_watchdog_tread_inited = 0;
+extern int esp_clk_cpu_freq(void);
+extern int esp_clk_xtal_freq(void);
 
 /**
  * @brief watchdog init
@@ -24,14 +41,19 @@
  */
 UINT32_T tkl_watchdog_init(TUYA_WDOG_BASE_CFG_T *cfg)
 {
-    // --- BEGIN: user implements ---
-    if (cfg->interval_ms > 60000) {
-        cfg->interval_ms = 60000;
-    }
+    esp_task_wdt_config_t config;
 
-    return cfg->interval_ms;
-    // --- END: user implements ---
+    memset(&config, 0, sizeof(config));
+    config.timeout_ms = cfg->interval_ms;
+    config.trigger_panic = true;
+    if (ESP_OK != esp_task_wdt_init(&config)) {
+        //ESP_LOGE(DBG_TAG, "%s: call esp_task_wdt_init faield", __func__);
+        return OPRT_COM_ERROR;
+    }
+    
+    return OPRT_OK;    
 }
+
 
 /**
  * @brief watchdog deinit
@@ -42,11 +64,13 @@ UINT32_T tkl_watchdog_init(TUYA_WDOG_BASE_CFG_T *cfg)
  */
 OPERATE_RET tkl_watchdog_deinit(VOID_T)
 {
-    // --- BEGIN: user implements ---
-
+    if (ESP_OK != esp_task_wdt_deinit()) {
+        //ESP_LOGE(DBG_TAG, "%s: call esp_task_wdt_deinit faield", __func__);
+        return OPRT_COM_ERROR;
+    }
     return OPRT_OK;
-    // --- END: user implements ---
 }
+
 
 /**
  * @brief refresh watch dog
@@ -57,9 +81,20 @@ OPERATE_RET tkl_watchdog_deinit(VOID_T)
  */
 OPERATE_RET tkl_watchdog_refresh(VOID_T)
 {
-    // --- BEGIN: user implements ---
+    if (!tuya_watchdog_tread_inited) {
+        if (ESP_OK != esp_task_wdt_add(NULL)) {
+            //ESP_LOGE(DBG_TAG, "%s: call esp_task_wdt_init faield", __func__);
+            return OPRT_COM_ERROR;
+        }
+        tuya_watchdog_tread_inited = 1;
+    }
 
-    return OPRT_OK;
-    // --- END: user implements ---
+    if (ESP_OK != esp_task_wdt_reset()) {
+        //ESP_LOGE(DBG_TAG, "%s: call esp_task_wdt_reset faield", __func__);
+        return OPRT_COM_ERROR;
+    }
+
+    return OPRT_OK;    
 }
+
 
