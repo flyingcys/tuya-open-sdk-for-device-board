@@ -61,7 +61,7 @@ if [ ! -d ${IDF_PATH} ]; then
     else
         cd ${IDF_PATH}
         git submodule update --init --recursive
-        . ./install.sh
+        . ./install.sh all
         cd -
         
         echo "git clone esp-idf success ..."
@@ -72,7 +72,7 @@ if [ ! -d ${IDF_TOOLS_PATH} ];then
     echo "IDF_TOOLS_PATH is empty ..."
     cd ${IDF_PATH}
     git submodule update --init --recursive
-    . ./install.sh
+    . ./install.sh all
     cd -
 fi
 
@@ -82,7 +82,7 @@ cd -
 
 echo "Build Target: $TARGET"
 
-cd tuyaos
+cd tuya_open_sdk
 if [ "${USER_CMD}" = "clean" ]; then
     idf.py clean
     rm -rf .target

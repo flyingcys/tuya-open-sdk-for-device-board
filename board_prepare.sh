@@ -17,10 +17,12 @@ echo "Start board prepare ..."
 rm -rf .target
 
 rm -rf toolchain_file.cmake
-rm -rf tuyaos/sdkconfig
-rm -rf tuyaos/sdkconfig.old
-rm -rf tuyaos/sdkconfig.defaults
-rm -rf tuyaos/build
+rm -rf default.config
+rm -rf tuya_open_sdk/sdkconfig
+rm -rf tuya_open_sdk/sdkconfig.old
+rm -rf tuya_open_sdk/sdkconfig.defaults
+rm -rf tuya_open_sdk/build
+
 
 IDF_PATH=${TOP_DIR}/esp-idf
 IDF_TOOLS_PATH=${TOP_DIR}/.espressif
@@ -52,22 +54,34 @@ fi
 
 if [ x"$TARGET" = x"esp32" ]; then
     ln -s toolchain_esp32.cmake toolchain_file.cmake
-    cp -rf tuyaos/sdkconfig_esp32 tuyaos/sdkconfig.defaults
+    ln -s default_esp32.config default.config
+    cp -rf tuya_open_sdk/sdkconfig_esp32 tuya_open_sdk/sdkconfig.defaults
+
 elif [ x"$TARGET" = x"esp32s2" ]; then
     ln -s toolchain_esp32s2.cmake toolchain_file.cmake
-    cp -rf tuyaos/sdkconfig_esp32s2 tuyaos/sdkconfig.defaults
+    ln -s default_esp32s2.config default.config
+    cp -rf tuya_open_sdk/sdkconfig_esp32s2 tuya_open_sdk/sdkconfig.defaults
+
 elif [ x"$TARGET" = x"esp32s3" ]; then
     ln -s toolchain_esp32s3.cmake toolchain_file.cmake
-    cp -rf tuyaos/sdkconfig_esp32s3 tuyaos/sdkconfig.defaults
+    ln -s default_esp32.config default.config
+    cp -rf tuya_open_sdk/sdkconfig_esp32s3 tuya_open_sdk/sdkconfig.defaults
+
 elif [ x"$TARGET" = x"esp32c2" ]; then
     ln -s toolchain_esp32c2.cmake toolchain_file.cmake
-    cp -rf tuyaos/sdkconfig_esp32c2 tuyaos/sdkconfig.defaults
+    ln -s default_esp32.config default.config
+    cp -rf tuya_open_sdk/sdkconfig_esp32c2 tuya_open_sdk/sdkconfig.defaults
+
 elif [ x"$TARGET" = x"esp32c3" ]; then
     ln -s toolchain_esp32c3.cmake toolchain_file.cmake
-    cp -rf tuyaos/sdkconfig_esp32c3 tuyaos/sdkconfig.defaults
+    ln -s default_esp32.config default.config
+    cp -rf tuya_open_sdk/sdkconfig_esp32c3 tuya_open_sdk/sdkconfig.defaults
+
 elif [ x"$TARGET" = x"esp32c6" ]; then
     ln -s toolchain_esp32c6.cmake toolchain_file.cmake
-    cp -rf tuyaos/sdkconfig_esp32c6 tuyaos/sdkconfig.defaults
+    ln -s default_esp32.config default.config
+    cp -rf tuya_open_sdk/sdkconfig_esp32c6 tuya_open_sdk/sdkconfig.defaults
+    
 else
     echo "TARGET is empty ..."
     exit 1
@@ -89,6 +103,6 @@ typedef struct mbedtls_threading_mutex_t {
 FILENAME="threading_alt.h"
 echo -e "$CONTENT" > "$FILENAME"
 
-cp -f ${FILENAME} ${IDF_PATH}/components/mbedtls/mbedtls/include/mbedtls
+mv -f ${FILENAME} ${IDF_PATH}/components/mbedtls/mbedtls/include/mbedtls
 
 echo "Run board prepare success ..."

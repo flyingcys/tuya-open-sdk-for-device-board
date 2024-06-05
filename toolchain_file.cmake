@@ -1,1 +1,1 @@
-toolchain_esp32s3.cmake
+toolchain_esp32c3.cmake

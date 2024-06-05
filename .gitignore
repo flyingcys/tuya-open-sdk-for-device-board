@@ -1,7 +1,7 @@
 esp-idf
 .espressif
-tuyaos/build
+tuya_open_sdk/build
 .target
-tuyaos/sdkconfig
-tuyaos/sdkconfig.old
-tuyaos/sdkconfig.defaults
+tuya_open_sdk/sdkconfig
+tuya_open_sdk/sdkconfig.old
+tuya_open_sdk/sdkconfig.defaults
